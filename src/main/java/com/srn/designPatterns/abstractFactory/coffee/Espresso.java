@@ -20,4 +20,9 @@ public class Espresso implements Coffee{
     public void setQuantity(CoffeeSize size) {
         this.coffeeSize = size;
     }
+
+    @Override
+    public void prepare() {
+        System.out.println("Espresso is ready!!!");
+    }
 }

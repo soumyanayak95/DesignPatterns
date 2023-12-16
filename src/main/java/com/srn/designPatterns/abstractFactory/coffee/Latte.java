@@ -15,4 +15,9 @@ public class Latte implements Coffee{
     public void setQuantity(CoffeeSize size) {
 
     }
+
+    @Override
+    public void prepare() {
+        System.out.println("Latte is ready!!!");
+    }
 }

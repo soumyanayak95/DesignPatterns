@@ -22,4 +22,9 @@ public class BananaShake implements Shake{
     public void setFruit(FruitType fruit) {
 
     }
+
+    @Override
+    public void prepare() {
+        System.out.println("Banana shake is ready!!!");
+    }
 }
