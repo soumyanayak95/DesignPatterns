@@ -3,7 +3,7 @@ package com.srn.designPatterns.abstractFactory.factory;
 import com.srn.designPatterns.abstractFactory.Product;
 
 public abstract class ProductFactory {
-    public abstract Product getProduct(String productType);
+    public abstract Product getProduct(String subProductType);
 
     public static ProductFactory getProductFactory(String productType){
         switch (productType) {
