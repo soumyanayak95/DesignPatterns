@@ -13,3 +13,6 @@ step 2: then he selects the type of coffee
 step 3: he adds instructions provided to him or can opt for default preparation
 step 4: final cost will be calculated based on his choices
 step 5: he will get his product
+
+<img src="../../../../../resources/static/AbstractFactoryUML-2.png">
+<img src="../../../../../resources/static/AbstractFactoryUML.JPG" width="600"/>
